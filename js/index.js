@@ -44,7 +44,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 const getTitle = document.querySelector("title")
 //nav section//
 const getLink1 = document.querySelector("a")
-console.log(getLink1)
+
 const getLink2 = getLink1.nextElementSibling
 const getLink3 = getLink2.nextElementSibling
 const getLink4 = getLink3.nextElementSibling
@@ -91,3 +91,20 @@ mainPara[5].textContent = '123 Way 456 Street Somewhere, USA'
 mainPara[6].textContent = '1 (888) 888-8888'
 mainPara[7].textContent = 'sales@greatidea.io'
 mainPara[8].textContent = 'Copyright Great Idea! 2018'
+
+getLink1.style.color = "green"
+getLink2.style.color = 'green'
+getLink3.style.color = 'green'
+getLink4.style.color = 'green'
+getLink5.style.color = 'green'
+getLink6.style.color = 'green'
+
+const myBlog = document.createElement('a')
+myBlog.textContent = 'Blog'
+myBlog.href = "facebook.com"
+const nav = document.querySelector("nav")
+nav.appendChild(myBlog)
+
+const myShop = document.createElement('a')
+myShop.textContent = "Shop"
+nav.prepend(myShop)// adds content to the beginning of the object elements//
