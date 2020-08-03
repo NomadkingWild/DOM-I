@@ -101,7 +101,7 @@ getLink3.style.fontWeight = "bold"
 getLink4.style.color = 'green'
 getLink4.style.fontWeight = 'bold'
 getLink5.style.color = 'green'
-getLink5.style/fontWeight = 'bold'
+getLink5.style.fontWeight = 'bold'
 getLink6.style.color = 'green'
 getLink6.style.fontWeight = "bold"
 
