@@ -69,9 +69,10 @@ getCtaButton.textContent = "Get Started"
 const getImg = document.getElementById("cta-img")
 getImg.src ="img/header-img.png"
 
+
 //main section//
 const mainTitles = document.querySelectorAll("h4")
-mainTitles[0].textContent = "Feature"
+mainTitles[0].textContent = "Features"
 mainTitles[1].textContent = "About"
 mainTitles[2].textContent = "Services"
 mainTitles[3].textContent = "Product"
