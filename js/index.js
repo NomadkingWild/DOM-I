@@ -114,6 +114,7 @@ nav.appendChild(myBlog)
 
 const myShop = document.createElement('a')
 myShop.textContent = "Shop"
+myShop.href ="amazon.com"
 nav.prepend(myShop)// adds content to the beginning of the object elements//
 
 myBlog.style.color = 'green'
