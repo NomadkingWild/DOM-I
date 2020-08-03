@@ -93,11 +93,17 @@ mainPara[7].textContent = 'sales@greatidea.io'
 mainPara[8].textContent = 'Copyright Great Idea! 2018'
 
 getLink1.style.color = "green"
+getLink1.style.fontWeight = 'bold'
 getLink2.style.color = 'green'
+getLink2.style.fontWeight = 'bold'
 getLink3.style.color = 'green'
+getLink3.style.fontWeight = "bold"
 getLink4.style.color = 'green'
+getLink4.style.fontWeight = 'bold'
 getLink5.style.color = 'green'
+getLink5.style/fontWeight = 'bold'
 getLink6.style.color = 'green'
+getLink6.style.fontWeight = "bold"
 
 const myBlog = document.createElement('a')
 myBlog.textContent = 'Blog'
@@ -108,3 +114,8 @@ nav.appendChild(myBlog)
 const myShop = document.createElement('a')
 myShop.textContent = "Shop"
 nav.prepend(myShop)// adds content to the beginning of the object elements//
+
+myBlog.style.color = 'green'
+myBlog.style.fontWeight = "bold"
+myShop.style.color = 'green'
+myShop.style.fontWeight = "bold"
